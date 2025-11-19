@@ -11,8 +11,8 @@ pi_client.py放在Pi5上<br>
 
 ```md
 # --- 白色線條的 HSV 閥值 ---
-LOWER_WHITE = np.array([0, 0, 150])
-UPPER_WHITE = np.array([30, 120, 255])
+LOWER_WHITE = np.array([0, 0, 150]) #下界
+UPPER_WHITE = np.array([30, 120, 255]) #上界
 ```
 
 更改完成後就可以開始車道偵測循線了，Picamera的角度要喬一下<br>
