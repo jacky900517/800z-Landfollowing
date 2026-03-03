@@ -7,15 +7,13 @@
 找到最佳數值後記住就可退出<br>
 
 去到`flaskweb_Lanefollowing.py`<br>
+或是`EDGEfollowing.py`<br>
 將line26後的內容更改一下<br>
 
+舉例：
 ```md
 # --- 白色線條的 HSV 閥值 ---
 # 把上下界剛剛校正過的資料更新到矩陣中
 LOWER_WHITE = np.array([0, 0, 150]) 
 UPPER_WHITE = np.array([30, 120, 255]) 
 ```
-
-更改完成後就可以開始車道偵測循線了，Picamera的角度要喬一下<br>
-可以的話最好配合更改line 21的ROI作用範圍，防止車道線丟失
-
