@@ -6,8 +6,7 @@
 執行後就可以透過滑軌調HSV的數值，視窗即時顯示結果<br>
 找到最佳數值後記住就可退出<br>
 
-去到`flaskweb_Lanefollowing.py`<br>
-或是`EDGEfollowing.py`<br>
+去到`EDGEfollowing.py`<br>
 將line26後的內容更改一下<br>
 
 舉例：
